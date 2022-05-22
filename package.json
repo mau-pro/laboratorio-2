@@ -1,0 +1,26 @@
+{
+  "name": "apischedule",
+  "version": "1.0.0",
+  "description": "Schedule System",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --config nodemon.json src/server.ts",
+    "dev:debug": "nodemon --config nodemon.json",
+    "start": "node ./dist/server.js"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Ditmar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
